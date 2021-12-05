@@ -36,6 +36,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["@types/express", "npm:4.17.13"],
+            ["@types/pluralize", "npm:0.0.29"],
             ["@typescript-eslint/eslint-plugin", "virtual:0ffe82776678ad3db0a1d458e3c0bde02dc2f0273fa81aa101dbf6a23000bb09cb279993991da0a937ac8405c8b82356c29e3a4aad014d713e25b6405cd0ee74#npm:4.33.0"],
             ["@typescript-eslint/parser", "virtual:0ffe82776678ad3db0a1d458e3c0bde02dc2f0273fa81aa101dbf6a23000bb09cb279993991da0a937ac8405c8b82356c29e3a4aad014d713e25b6405cd0ee74#npm:4.33.0"],
             ["eslint", "npm:7.32.0"],
@@ -47,6 +48,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["express", "npm:4.17.1"],
             ["mongoose", "npm:6.0.14"],
             ["nodemon", "npm:2.0.15"],
+            ["pluralize", "npm:8.0.0"],
             ["prettier", "npm:2.5.1"],
             ["ts-node", "virtual:0ffe82776678ad3db0a1d458e3c0bde02dc2f0273fa81aa101dbf6a23000bb09cb279993991da0a937ac8405c8b82356c29e3a4aad014d713e25b6405cd0ee74#npm:10.4.0"],
             ["typescript", "patch:typescript@npm%3A4.5.2#~builtin<compat/typescript>::version=4.5.2&hash=493e53"]
@@ -357,6 +359,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-node-npm-16.11.11-d8efa4328b-1c472bd63f.zip/node_modules/@types/node/",
           "packageDependencies": [
             ["@types/node", "npm:16.11.11"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@types/pluralize", [
+        ["npm:0.0.29", {
+          "packageLocation": "./.yarn/cache/@types-pluralize-npm-0.0.29-a6b8916fba-db7732b733.zip/node_modules/@types/pluralize/",
+          "packageDependencies": [
+            ["@types/pluralize", "npm:0.0.29"]
           ],
           "linkType": "HARD",
         }]
@@ -3856,6 +3867,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["pluralize", [
+        ["npm:8.0.0", {
+          "packageLocation": "./.yarn/cache/pluralize-npm-8.0.0-f5f044ed52-08931d4a6a.zip/node_modules/pluralize/",
+          "packageDependencies": [
+            ["pluralize", "npm:8.0.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["prelude-ls", [
         ["npm:1.2.1", {
           "packageLocation": "./.yarn/cache/prelude-ls-npm-1.2.1-3e4d272a55-cd192ec0d0.zip/node_modules/prelude-ls/",
@@ -4009,6 +4029,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["quotes-app", "workspace:."],
             ["@types/express", "npm:4.17.13"],
+            ["@types/pluralize", "npm:0.0.29"],
             ["@typescript-eslint/eslint-plugin", "virtual:0ffe82776678ad3db0a1d458e3c0bde02dc2f0273fa81aa101dbf6a23000bb09cb279993991da0a937ac8405c8b82356c29e3a4aad014d713e25b6405cd0ee74#npm:4.33.0"],
             ["@typescript-eslint/parser", "virtual:0ffe82776678ad3db0a1d458e3c0bde02dc2f0273fa81aa101dbf6a23000bb09cb279993991da0a937ac8405c8b82356c29e3a4aad014d713e25b6405cd0ee74#npm:4.33.0"],
             ["eslint", "npm:7.32.0"],
@@ -4020,6 +4041,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["express", "npm:4.17.1"],
             ["mongoose", "npm:6.0.14"],
             ["nodemon", "npm:2.0.15"],
+            ["pluralize", "npm:8.0.0"],
             ["prettier", "npm:2.5.1"],
             ["ts-node", "virtual:0ffe82776678ad3db0a1d458e3c0bde02dc2f0273fa81aa101dbf6a23000bb09cb279993991da0a937ac8405c8b82356c29e3a4aad014d713e25b6405cd0ee74#npm:10.4.0"],
             ["typescript", "patch:typescript@npm%3A4.5.2#~builtin<compat/typescript>::version=4.5.2&hash=493e53"]
