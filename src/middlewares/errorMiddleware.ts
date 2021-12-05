@@ -1,7 +1,6 @@
 import { NextFunction, Request, Response } from 'express'
 import { HTTP_ERRORS } from '../config/constants'
-import HttpError from '../helpers/HttpError'
-import MultipleErrors from '../helpers/MultipleErrors'
+import { MultipleErrors, HttpError } from '../helpers'
 
 export default (
   err: MultipleErrors | HttpError | Error,

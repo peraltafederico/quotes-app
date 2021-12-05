@@ -6,7 +6,7 @@ import fs from 'fs'
 
 const router = express.Router()
 
-const routesPath = path.resolve(`${__dirname}/../../src/routes`)
+const routesPath = path.resolve(__dirname)
 const routes = fs.readdirSync(routesPath)
 
 routes.forEach(async (file: string) => {
