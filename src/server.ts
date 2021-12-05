@@ -1,17 +1,9 @@
 import express, { Response } from 'express'
+import { HTTP_ERRORS } from './config/constants'
 import { configDB } from './config/datatabe'
 import HttpError from './helpers/HttpError'
 import MultipleErrors from './helpers/MultipleErrors'
 import router from './routes'
-
-const httpErrors = {
-  '400': 'BadRequest',
-  '401': 'Unauthorized',
-  '403': 'Forbidden',
-  '404': 'NotFound',
-  '409': 'Conflict',
-  '500': 'InternalServerError',
-}
 
 const app = express()
 
@@ -23,10 +15,9 @@ app.use('/api', router)
 
 app.use(
   (err: MultipleErrors | HttpError | Error, _: any, res: Response, __: any) => {
-    const statusCode = err instanceof HttpError ? err?.status : 500
-    const statusMessage =
-      httpErrors[String(statusCode) as keyof typeof httpErrors] ||
-      httpErrors[500]
+    const code = err instanceof HttpError ? err?.status : 500
+    const name =
+      HTTP_ERRORS[String(code) as keyof typeof HTTP_ERRORS] || HTTP_ERRORS[500]
     const errors =
       err instanceof MultipleErrors
         ? JSON.parse(err?.message)
@@ -36,9 +27,9 @@ app.use(
             },
           ]
 
-    res.status(statusCode).send({
-      statusMessage,
-      statusCode,
+    res.status(code).send({
+      name,
+      code,
       errors,
     })
   }

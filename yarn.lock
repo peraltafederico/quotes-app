@@ -3291,6 +3291,7 @@ __metadata:
     eslint-config-airbnb-base: ^14.2.1
     eslint-config-airbnb-typescript: ^12.3.1
     eslint-config-prettier: ^8.3.0
+    eslint-import-resolver-node: ^0.3.6
     eslint-plugin-import: ^2.23.3
     eslint-plugin-prettier: ^3.4.0
     express: ^4.17.1
