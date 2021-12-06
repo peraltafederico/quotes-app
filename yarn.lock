@@ -658,6 +658,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"auto-bind@npm:^5.0.1":
+  version: 5.0.1
+  resolution: "auto-bind@npm:5.0.1"
+  checksum: 44a6d8d040c4382e761922f8fa1b044e18ddefbc855fecee0c76ec6b4e6fc74adda21026bc86e190833e05f52b4b6615372c2a83a734858f8395b1e2a98b253a
+  languageName: node
+  linkType: hard
+
+"autobind@npm:^1.0.3":
+  version: 1.0.3
+  resolution: "autobind@npm:1.0.3"
+  checksum: 5d3a15f2768fc0e8f44c66c37c73577bb26e4fed950a6811728671723e4b0387d8a0ce1e85dd1ed19d0eb284a55574032835a90455f1476f6e9ecf8ea3764060
+  languageName: node
+  linkType: hard
+
 "balanced-match@npm:^1.0.0":
   version: 1.0.2
   resolution: "balanced-match@npm:1.0.2"
@@ -3287,6 +3301,8 @@ __metadata:
     "@types/pluralize": ^0.0.29
     "@typescript-eslint/eslint-plugin": ^4.24.0
     "@typescript-eslint/parser": ^4.24.0
+    auto-bind: ^5.0.1
+    autobind: ^1.0.3
     eslint: ^7.26.0
     eslint-config-airbnb-base: ^14.2.1
     eslint-config-airbnb-typescript: ^12.3.1

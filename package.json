@@ -23,6 +23,8 @@
     "build": "yarn tsc"
   },
   "dependencies": {
+    "auto-bind": "^5.0.1",
+    "autobind": "^1.0.3",
     "eslint-import-resolver-node": "^0.3.6",
     "express": "^4.17.1",
     "mongoose": "^6.0.14",

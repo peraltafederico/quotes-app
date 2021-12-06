@@ -39,6 +39,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/pluralize", "npm:0.0.29"],
             ["@typescript-eslint/eslint-plugin", "virtual:0ffe82776678ad3db0a1d458e3c0bde02dc2f0273fa81aa101dbf6a23000bb09cb279993991da0a937ac8405c8b82356c29e3a4aad014d713e25b6405cd0ee74#npm:4.33.0"],
             ["@typescript-eslint/parser", "virtual:0ffe82776678ad3db0a1d458e3c0bde02dc2f0273fa81aa101dbf6a23000bb09cb279993991da0a937ac8405c8b82356c29e3a4aad014d713e25b6405cd0ee74#npm:4.33.0"],
+            ["auto-bind", "npm:5.0.1"],
+            ["autobind", "npm:1.0.3"],
             ["eslint", "npm:7.32.0"],
             ["eslint-config-airbnb-base", "virtual:0ffe82776678ad3db0a1d458e3c0bde02dc2f0273fa81aa101dbf6a23000bb09cb279993991da0a937ac8405c8b82356c29e3a4aad014d713e25b6405cd0ee74#npm:14.2.1"],
             ["eslint-config-airbnb-typescript", "npm:12.3.1"],
@@ -898,6 +900,24 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/astral-regex-npm-2.0.0-f30d866aab-876231688c.zip/node_modules/astral-regex/",
           "packageDependencies": [
             ["astral-regex", "npm:2.0.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["auto-bind", [
+        ["npm:5.0.1", {
+          "packageLocation": "./.yarn/cache/auto-bind-npm-5.0.1-a3b4e3a569-44a6d8d040.zip/node_modules/auto-bind/",
+          "packageDependencies": [
+            ["auto-bind", "npm:5.0.1"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["autobind", [
+        ["npm:1.0.3", {
+          "packageLocation": "./.yarn/cache/autobind-npm-1.0.3-bcdbdeb188-5d3a15f276.zip/node_modules/autobind/",
+          "packageDependencies": [
+            ["autobind", "npm:1.0.3"]
           ],
           "linkType": "HARD",
         }]
@@ -4033,6 +4053,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/pluralize", "npm:0.0.29"],
             ["@typescript-eslint/eslint-plugin", "virtual:0ffe82776678ad3db0a1d458e3c0bde02dc2f0273fa81aa101dbf6a23000bb09cb279993991da0a937ac8405c8b82356c29e3a4aad014d713e25b6405cd0ee74#npm:4.33.0"],
             ["@typescript-eslint/parser", "virtual:0ffe82776678ad3db0a1d458e3c0bde02dc2f0273fa81aa101dbf6a23000bb09cb279993991da0a937ac8405c8b82356c29e3a4aad014d713e25b6405cd0ee74#npm:4.33.0"],
+            ["auto-bind", "npm:5.0.1"],
+            ["autobind", "npm:1.0.3"],
             ["eslint", "npm:7.32.0"],
             ["eslint-config-airbnb-base", "virtual:0ffe82776678ad3db0a1d458e3c0bde02dc2f0273fa81aa101dbf6a23000bb09cb279993991da0a937ac8405c8b82356c29e3a4aad014d713e25b6405cd0ee74#npm:14.2.1"],
             ["eslint-config-airbnb-typescript", "npm:12.3.1"],
