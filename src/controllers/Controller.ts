@@ -2,10 +2,10 @@ import { Request, Response, NextFunction } from 'express'
 import HttpResponse from '../helpers/HttpResponse'
 import Service from '../services/Service'
 
-export default class Controller<T> {
-  service: Service<T>
+export default class Controller<Q, T extends Service<Q>> {
+  service: T
 
-  constructor(service: Service<T>) {
+  constructor(service: T) {
     this.service = service
     this.getAll = this.getAll.bind(this)
   }

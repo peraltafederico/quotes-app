@@ -9,4 +9,5 @@
 !/.yarn/cache
 # /.pnp.*
 
-scripts
+/scripts/*
+!/scripts/script.py

@@ -3,6 +3,9 @@ import QuoteController from '../controllers/QuoteController'
 
 const router = express.Router()
 
-router.get('/', new QuoteController().getAll)
+const controller = new QuoteController()
+
+router.get('/', controller.getAll)
+router.get('/random', controller.getRandom)
 
 export default router
