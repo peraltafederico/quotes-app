@@ -11,3 +11,4 @@
 
 /scripts/*
 !/scripts/script.py
+dist
